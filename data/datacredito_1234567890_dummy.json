@@ -1,0 +1,501 @@
+{
+    "ReportHDCplus": {
+        "productResult": {
+            "securityCode": "XYZ12B9",
+            "consultDate": "2025-10-23T14:30:22",
+            "responseCode": 13,
+            "responseDesc": "La consulta fue efectiva"
+        },
+        "identifyingAttributes": {
+            "personId": {
+                "personIdNumber": 1234567890,
+                "personIdType": 1
+            },
+            "personLastName": "JOHNSON"
+        },
+        "basicInformation": {
+            "personId": {
+                "personIdNumber": 1234567890,
+                "personIdType": 1
+            },
+            "gender": 4,
+            "genderDesc": "Hombre",
+            "names": "JOHN MICHAEL",
+            "firstLastName": "JOHNSON",
+            "secondLastName": "SMITH",
+            "fullName": "JOHNSON SMITH JOHN MICHAEL",
+            "citizenTaxRegistrationIndicator": false,
+            "officialSourceValidationStatus": true,
+            "identification": {
+                "statusId": "00",
+                "issueDate": "2020-05-20",
+                "issuingCityName": "MEDELLIN",
+                "issuingStateName": "ANTIOQUIA",
+                "personId": {
+                    "personIdNumber": 1234567890,
+                    "personIdType": 1
+                }
+            },
+            "age": {
+                "min": 30,
+                "max": 35
+            }
+        },
+        "savings": [
+            {
+                "account": {
+                    "primaryKey": "10100123456751003301514198072000000000",
+                    "block": false,
+                    "rating": 1,
+                    "ratingDesc": "NORMAL",
+                    "filingCityName": "MEDELLIN",
+                    "filingCityCode": 5001000,
+                    "counterpartyIdNumber": "00860034313",
+                    "businessLineName": "BANCO          DAVIVIENDA",
+                    "accountOpeningDate": "2019-03-15",
+                    "accountNumber": 514198072,
+                    "filingOffice": "TORRE CENTRAL",
+                    "economicSector": 1,
+                    "economicSectorName": "SECTOR FINANCIERO",
+                    "stateOfAccountHolder": 0,
+                    "stateOfAccountHolderDesc": "NORMAL",
+                    "personId": {
+                        "personIdType": 2,
+                        "personIdDesc": "NÚMERO DE IDENTIFICACIÓN TRIBUTARIA"
+                    },
+                    "subAccountTypeName": "CUENTAS DE AHORRO Y BANCARIAS",
+                    "accountType": 51,
+                    "subAccountType": "00",
+                    "subAccountTypeDesc": "AHO"
+                },
+                "features": {
+                    "accountCategory": 0,
+                    "accountCategoryDesc": "NOR"
+                },
+                "status": {
+                    "businessBureauEvent": "01",
+                    "businessBureauEventDesc": "CUENTA ACTIVA",
+                    "behaviourDate": "2025-09-30"
+                },
+                "values": [
+                    {
+                        "rating": 1,
+                        "ratingDesc": "NORMAL",
+                        "behaviourDate": "2025-09-30",
+                        "currencyType": 1,
+                        "currencyTypeDesc": "Moneda Legal"
+                    }
+                ]
+            },
+            {
+                "account": {
+                    "primaryKey": "10100123456751005001116808131000000000",
+                    "block": false,
+                    "rating": 1,
+                    "ratingDesc": "NORMAL",
+                    "filingCityName": "CALI",
+                    "filingCityCode": "76001000",
+                    "counterpartyIdNumber": "00860003020",
+                    "businessLineName": "BBVA           COLOMBIA",
+                    "accountOpeningDate": "2020-07-10",
+                    "accountNumber": 116808131,
+                    "filingOffice": "ALCAZARES",
+                    "economicSector": 1,
+                    "economicSectorName": "SECTOR FINANCIERO",
+                    "stateOfAccountHolder": 0,
+                    "stateOfAccountHolderDesc": "NORMAL",
+                    "personId": {
+                        "personIdType": 2,
+                        "personIdDesc": "NÚMERO DE IDENTIFICACIÓN TRIBUTARIA"
+                    },
+                    "subAccountTypeName": "CUENTAS DE AHORRO Y BANCARIAS",
+                    "accountType": 51,
+                    "subAccountType": "00",
+                    "subAccountTypeDesc": "AHO"
+                },
+                "features": {
+                    "accountCategory": 0,
+                    "accountCategoryDesc": "NOR"
+                },
+                "status": {
+                    "businessBureauEvent": "01",
+                    "businessBureauEventDesc": "CUENTA ACTIVA",
+                    "behaviourDate": "2025-09-30"
+                },
+                "values": [
+                    {
+                        "rating": 1,
+                        "ratingDesc": "NORMAL",
+                        "behaviourDate": "2025-09-30",
+                        "currencyType": 1,
+                        "currencyTypeDesc": "Moneda Legal"
+                    }
+                ]
+            }
+        ],
+        "liabilities": [
+            {
+                "account": {
+                    "primaryKey": "10100123456723002623230987114000000000",
+                    "block": false,
+                    "filingCityName": "BOGOTA",
+                    "filingCityCode": "00000000",
+                    "counterpartyIdNumber": 230026,
+                    "businessLineName": "COLOMBIA MOVIL",
+                    "accountOpeningDate": "2021-02-15",
+                    "accountNumber": 230987114,
+                    "filingOffice": "PRINCIPAL",
+                    "economicSector": 4,
+                    "economicSectorName": "SECTOR TELCOS",
+                    "stateOfAccountHolder": 0,
+                    "stateOfAccountHolderDesc": "NORMAL",
+                    "personId": {
+                        "personIdNumber": "00830114921",
+                        "personIdType": 2,
+                        "personIdDesc": "NÚMERO DE IDENTIFICACIÓN TRIBUTARIA"
+                    },
+                    "subAccountTypeName": "CARTERA TELEFONIA CELULAR",
+                    "accountType": 23,
+                    "subAccountType": "00",
+                    "accountTypeDesc": "CTC",
+                    "subAccountTypeDesc": "CTC"
+                },
+                "liabilitiesAccount": {
+                    "expiryDate": "2040-12-31",
+                    "paymentType": 1,
+                    "paymentTypeDesc": "PAGO VOLUNTARIO",
+                    "businessBehaviourVectorProduct": "66666666543NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN ",
+                    "probabilityOfDefault": 0,
+                    "ratingHD": true
+                },
+                "featuresLiabilities": {
+                    "typeOfCredit": 2,
+                    "typeOfCreditDesc": "CONSUMO",
+                    "contractType": 2,
+                    "contractTypeDesc": "Indefinido",
+                    "contractTerm": 0,
+                    "guaranteeType": 2,
+                    "guaranteeTypeName": "OTR GAR",
+                    "contractExecution": 2,
+                    "typeOfDebtor": "00",
+                    "typeOfDebtorDesc": "PRINCIPAL: RESPONSABLE DEL PAGO"
+                },
+                "status": {
+                    "account": {
+                        "businessAccountStatus": "01",
+                        "businessAccountStatusDesc": "AL DIA",
+                        "accountStatusDate": "2025-09-30"
+                    },
+                    "origin": {
+                        "originStatusOfAccount": 0,
+                        "originStatusOfAccountDesc": "NORMAL",
+                        "dateOfOriginStatus": "2021-02-15"
+                    },
+                    "payment": {
+                        "businessBureauEvent": 1,
+                        "businessBureauEventDesc": "PAGO AL DIA",
+                        "paymentDate": "2025-09-30",
+                        "paymentMonths": 48
+                    }
+                },
+                "values": [
+                    {
+                        "rating": 1,
+                        "ratingDesc": "NORMAL",
+                        "behaviourDate": "2025-09-30",
+                        "currencyType": 1,
+                        "currencyTypeDesc": "Moneda Legal",
+                        "valueMonthlyPayment": 50000,
+                        "paidInstallments": 24,
+                        "installmentsOverdue": 0,
+                        "delinquencyMaturation": 0,
+                        "availableBalance": 100000,
+                        "paymentDate": "2025-09-28",
+                        "periodicityOfPayments": 1,
+                        "periodicityOfPaymentsDesc": "MENSUAL",
+                        "businessValueBalanceOverdue": 0,
+                        "debtBalance": 50000,
+                        "initialValue": 2000000,
+                        "totalNumberOfInstallments": 48
+                    }
+                ]
+            }
+        ],
+        "creditCard": [
+            {
+                "account": {
+                    "primaryKey": "10100123456702015002130070221000000000",
+                    "block": false,
+                    "filingCityName": "BOGOTA",
+                    "filingCityCode": "00000000",
+                    "businessLineCode": "BANCOLOMBIA    VISA",
+                    "accountOpeningDate": "2024-01-15",
+                    "accountNumber": 130070221,
+                    "filingOffice": "PLAZA DE LAS AMERICAS",
+                    "economicSector": 1,
+                    "economicSectorName": "SECTOR FINANCIERO",
+                    "stateOfAccountHolder": 0,
+                    "stateOfAccountHolderDesc": "NORMAL",
+                    "personId": {
+                        "personIdNumber": "00860003020",
+                        "personIdType": 2,
+                        "personIdDesc": "NÚMERO DE IDENTIFICACIÓN TRIBUTARIA"
+                    },
+                    "subAccountTypeName": "TARJETAS DE CREDITO",
+                    "accountType": "02",
+                    "subAccountType": "00",
+                    "subAccountTypeDesc": "TDC"
+                },
+                "creditCardAccount": {
+                    "expiryDate": "2028-12-31",
+                    "paymentType": 1,
+                    "paymentTypeDesc": "PAGO VOLUNTARIO",
+                    "businessBehaviourVectorProduct": "NN--------------------------------------------- ",
+                    "probabilityOfDefault": 0,
+                    "ratingHD": true
+                },
+                "FeaturesCreditCard": {
+                    "debtor": false,
+                    "cardClass": 2,
+                    "privateBrandName": "000",
+                    "cardClassName": null,
+                    "guaranteeType": 2,
+                    "guaranteeTypeName": "OTR GAR",
+                    "franchiseType": 2,
+                    "franchiseName": "VISA",
+                    "typeOfDebtor": "00",
+                    "typeOfDebtorDesc": "PRINCIPAL: RESPONSABLE DEL PAGO"
+                },
+                "status": {
+                    "account": {
+                        "businessAccountStatus": "01",
+                        "businessAccountStatusDesc": "AL DIA",
+                        "accountStatusDate": "2025-09-30"
+                    },
+                    "origin": {
+                        "originStatusOfAccount": 0,
+                        "originStatusOfAccountDesc": "NORMAL",
+                        "dateOfOriginStatus": "2024-01-31"
+                    },
+                    "payment": {
+                        "businessBureauEvent": "01",
+                        "businessBureauEventDesc": "PAGO AL DIA",
+                        "paymentDate": "2025-09-30",
+                        "paymentMonths": 24
+                    },
+                    "card": {
+                        "cardStatusCode": 1,
+                        "cardStatusName": "ENTREGADO",
+                        "dateOfCreditStatus": "2025-10-23"
+                    }
+                },
+                "values": [
+                    {
+                        "rating": 1,
+                        "ratingDesc": "NORMAL",
+                        "behaviourDate": "2025-09-30",
+                        "currencyType": 1,
+                        "currencyTypeDesc": "Moneda Legal",
+                        "valueMonthlyPayment": 250000,
+                        "installmentsOverdue": 0,
+                        "delinquencyMaturation": 0,
+                        "availableBalance": 5000000,
+                        "paymentDeadline": "2025-10-15",
+                        "paymentDate": "2025-09-28",
+                        "businessValueBalanceOverdue": 0,
+                        "debtBalance": 1500000,
+                        "initialValue": 6500000
+                    }
+                ]
+            }
+        ],
+        "location": {
+            "nationalNatural": {
+                "personId": {
+                    "personIdNumber": "01234567890"
+                },
+                "gender": 4,
+                "names": "JOHN MICHAEL",
+                "firstLastName": "JOHNSON",
+                "secondLastName": "SMITH",
+                "fullName": "JOHNSON SMITH JOHN MICHAEL",
+                "citizenTaxRegistrationIndicator": false,
+                "officialSourceValidationStatus": true,
+                "identification": {
+                    "statusId": "00",
+                    "statusDesc": "VIGENTE",
+                    "issueDate": "2020-05-20",
+                    "issuingCityName": "MEDELLIN",
+                    "issuingStateName": "ANTIOQUIA",
+                    "personId": {
+                        "personIdNumber": "01234567890"
+                    }
+                },
+                "age": {
+                    "min": 30,
+                    "minDesc": "30 - 35",
+                    "max": 35,
+                    "maxDesc": "30 - 35"
+                }
+            }
+        },
+        "globalIndebtedness": [
+            {
+                "sourceGlobalIndebtedness": "DC",
+                "sourceGlobalIndebtednessDesc": "Datacredito",
+                "quarterQualification": "A",
+                "quarterQualificationDesc": "EXCELENTE",
+                "cutoffDate": "2025-09-30",
+                "tradeHolderIndicator": null,
+                "currencyType": "MC",
+                "currencyTypeDesc": null,
+                "quantityOfObligations": 2,
+                "capitalValue": 1550000,
+                "typeOfCredit": "CNS",
+                "typeOfCreditDesc": "Consumo",
+                "entity": {
+                    "businessLineName": "BANCOLOMBIA",
+                    "counterpartyIdNumber": "00890903938",
+                    "economicSector": "1 ",
+                    "economicSectorName": null
+                },
+                "Guarantee": {
+                    "guaranteeType": 0,
+                    "guaranteeTypeName": "Sin garantía",
+                    "guaranteeValue": 0
+                }
+            }
+        ],
+        "inquiryFootprints": [
+            {
+                "primaryKey": "10100123456704",
+                "quantity": "01",
+                "economicSectorName": "SECTOR FINANCIERO",
+                "economicSector": 1,
+                "accountTypeName": "TDC",
+                "accountTypeDesc": null,
+                "filingOffice": "------------------",
+                "filingCityName": "------------",
+                "inquiryBusinessName": "BANCOLOMBIA",
+                "counterpartyIdNumber": "00890903938",
+                "inquiryDate": "2025-10-10",
+                "inquiryReasonCode": "01",
+                "inquiryReasonDesc": "SOLICITUD DE PRODUCTO"
+            }
+        ],
+        "agregatedInfo": {
+            "overview": {
+                "balances": {
+                    "valueMonthlyPayment": 300000,
+                    "HightestDebtBalance": 1550000,
+                    "debtBalanceD30": 0,
+                    "debtBalanceD60": 0,
+                    "debtBalanceD90": 0,
+                    "totaldebtBalance": 1550000,
+                    "totalValueBalanceOverdue": 0,
+                    "month": [
+                        {
+                            "behaviourDate": "2025-09-30",
+                            "totalBalance": 1550000,
+                            "totalValueBalanceOverdue": 0
+                        },
+                        {
+                            "behaviourDate": "2025-08-30",
+                            "totalBalance": 1800000,
+                            "totalValueBalanceOverdue": 0
+                        }
+                    ],
+                    "sector": [
+                        {
+                            "shareSector": 100,
+                            "debtBalance": 1550000,
+                            "economicSector": 1
+                        }
+                    ]
+                },
+                "principals": {
+                    "maturationSince": "2019-03-15",
+                    "consultedLast6Months": 1,
+                    "closedCredits": 0,
+                    "currentNegativeCredits": 0,
+                    "currentCredits": 2,
+                    "openedAccountsAHOCCB": 2,
+                    "closedAccountsAHOCCB": 0,
+                    "totalDisputes": 0,
+                    "negativeHistoricalLast12Months": 0,
+                    "currentDisputes": 0
+                },
+                "behavior": {
+                    "month": [
+                        {
+                            "behaviourDate": "2025-09-30",
+                            "behaviour": "N",
+                            "numberOfAccounts": 0
+                        },
+                        {
+                            "behaviourDate": "2025-08-30",
+                            "behaviour": "N",
+                            "numberOfAccounts": 0
+                        }
+                    ]
+                }
+            },
+            "portfolioComposition": {
+                "accountType": [
+                    {
+                        "numberOfAccounts": 2,
+                        "accountType": "AHO",
+                        "accountTypeDesc": null,
+                        "percentage": 100,
+                        "typeOfDebtor": "Principal",
+                        "State": [
+                            {
+                                "code": "Activa",
+                                "codeDesc": null,
+                                "quantityOfObligations": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "agregatedInfoMicrocredit": {
+            "overview": {
+                "generalProfile": {
+                    "Antiquity": {
+                        "sectorXDebtor": {
+                            "financialSector": "2019-03-15"
+                        }
+                    },
+                    "refinancedDebts": {
+                        "financialSector": 0,
+                        "totalAsPrincipal": 0
+                    },
+                    "RestructuredDebts": {
+                        "financialSector": 0,
+                        "totalAsPrincipal": 0
+                    },
+                    "inquiredLast6Months": {
+                        "financialSector": 1,
+                        "totalAsPrincipal": 1
+                    },
+                    "closedDebts": {
+                        "financialSector": 0,
+                        "totalAsPrincipal": 0
+                    },
+                    "disputes": {
+                        "financialSector": 0,
+                        "totalAsPrincipal": 0
+                    },
+                    "currentCredits": {
+                        "financialSector": 2,
+                        "totalAsPrincipal": 2
+                    }
+                },
+                "debtBalanceAndOverdueVector": {
+                    "hasFinancialSector": true
+                }
+            }
+        }
+    }
+}
