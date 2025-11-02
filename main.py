@@ -6,6 +6,7 @@ from flask import (
 	Flask,
 	jsonify,
 )
+from flask import request
 from flask_cors import CORS
 from pathlib import Path
 from typing import Optional
@@ -42,6 +43,20 @@ def _locate_report_file(person_id: str) -> Optional[Path]:
 
 	return None
 
+@app.get('/v1/users')
+def list_users():
+	active = request.args.get('active', type=bool)
+	users = _get_users(active)
+	return jsonify(users)
+
+def _get_users(active: Optional[bool] = None):
+	with DATA_DIR.joinpath("users.json").open("r", encoding="utf-8") as handle:
+		users = json.load(handle)
+
+	if active is not None:
+		users = [user for user in users if user.get("active") == active]
+
+	return users
 
 if __name__ == "__main__":
 	port = int(os.environ.get("PORT", "5000"))
